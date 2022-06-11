@@ -1,0 +1,79 @@
+body{
+  background-image: url('immagini/background.jpg');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+  line-height: 1%;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 18px;
+  margin-top: 30px;
+}
+
+header > img{
+  width: 150px;
+  margin-left: 380px;
+  margin-top: 50px;
+}
+
+header > h1{
+  font-size: 25px;
+  color: #00DD00;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Menu{
+  background-color: #00DD00;
+  margin-left: 80px;
+  text-align: center;
+  height: 35px;
+  width: 720px
+}
+
+button{
+  margin-top: 8px;
+}
+
+h5 {
+  margin-left: 24px;
+  margin-top: 5px;
+}
+
+.Titolo{
+  display: inline-block;
+}
+
+.prenotazioni{
+  margin-left: 80px;
+  margin-top: 10px
+}
+
+.stato-carica, .stato-carica2, .stato-carica3{
+  margin-left: 4px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.stato-carica{
+  background-color: #F5B453;
+  width: 320px;
+}
+
+.stato-carica2{
+  background-color: #1EC31E;
+  width: 520px;
+}
+
+.stato-carica3{
+  background-color: #BE4141;
+  width: 150px;
+}
